@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/10/14/54/wood-1086503_960_720.jpg");
+}
+
+.body{
+    position: relative;
+    top: 50%;
+    margin-left: 400px;
+    text-align: center;
+    width: 483px;
+    color: white;
+    font-weight: bold;
+}
+
+.header{
+    margin-top: 41px;
+    margin-left: 50px;
+}
+
+.allWeatherInfo{
+    display: flex;
+    background-color: black;
+}
+
+.cityInput{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.submit{
+    height: 34px;
+    width: 73px;
+    border-radius: 6px;
+    color: gold;
+    background-color: yellowgreen;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#slider{
+    width: 50px;
+    align-self: flex-end;
+}
+
+.imgStatusContainer{
+    margin-left: 77px;
+    margin-right: 18px;
+}
+
+.imgStatus{
+    height: 300px;
+    width: 300px;
+}
